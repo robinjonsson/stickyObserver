@@ -1,0 +1,20 @@
+{
+  "name": "sticky-observer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/sticky-observer.js",
+  "module": "./src/sticky-observer.js",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "rollup": "^1.10.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-replace": "^2.2.0"
+  },
+  "scripts": {
+    "build": "npx rollup -c --compact"
+  },
+  "author": "Robin Jonsson",
+  "license": "MIT"
+}
